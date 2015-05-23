@@ -2,10 +2,10 @@
 Coursera - Getting and Cleaning Data
 
 ###Contents
-This project contains 3 files in addition to the readme.
+This project contains 2 files in addition to the readme.
 + **CodeBook.md** - explains the steps in the R code file 
 + **run_analysis.R** - an R program that takes in data from the source below and merges the data from the test and training, combined the metadata about the data (subjects and activities), collects the means and stdev and outputs the averages of those to a text file
-+ **data_averages_by_subject_and_activity.txt** - is the text output of the R code run_analysis.R
+~~+ **data_averages_by_subject_and_activity.txt** - is the text output of the R code run_analysis.R~~ removed file because it is the answer to the project and we submit separately.
 
 ###What the code does
 1. First the code loads the data from the source text files using *read.table()*.  The training and test data for each is combined using *rbind()*.  This can be done because the is similar, it contain the same number of column and the values are related or have the same entities as the raw data.
